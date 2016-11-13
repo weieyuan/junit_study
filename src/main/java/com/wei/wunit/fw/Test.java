@@ -1,5 +1,5 @@
 package com.wei.wunit.fw;
 
-public class Test {
-
+public interface Test {
+	public void run(TestResult res);
 }
