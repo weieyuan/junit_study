@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories{
+	mavenCentral()
+}
+
+jar {  
+    baseName = 'WUnit'  
+    version =  '1.0.0'
+}
+
+dependencies{
+	compile group: 'junit', name: 'junit', version: '3.8.2'
+}
